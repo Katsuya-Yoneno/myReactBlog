@@ -5,4 +5,4 @@ commit:
 	git commit  -m  '$(shell date '+%Y-%m-%d %H:%M:%S')'
 
 push:   commit
-	git push    origin  main
+	git push origin main
