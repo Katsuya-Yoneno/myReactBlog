@@ -3,27 +3,24 @@ import '../App.css'
 const Qualification = () => {
     return (
         <>
-                    <div className="font-san  z-10 relative">
-                <div className="card w-80 mx-20 bg-white shadow-xl hover:shadow-lg p-8">
-                    <img className="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="cong.png" alt="" />
-                    <div className="text-center mt-2 text-3xl font-medium">Yoneno Katsuya</div>
-                    <div className="px-6 text-center mt-2 font-light text-sm">
-                        <p>Front end Developer. Love to fight with DONKEY KONG</p>
-                    </div>
-                    <hr className="mt-8" />
-                    <div className="flex p-4">
-                        <div className="text-center flex justify-center items center">
-                            <a href="https://github.com/Katsuya-Yoneno" target="_blank" rel="noopener noreferrer">
-                                <img className="mx-2 w-10 h-10" src="github.svg" />
-                            </a>
-                            {/* <a href="https://github.com/Katsuya-Yoneno" target="_blank" rel="noopener noreferrer">
-                     <img className='mx-2 w-10 h-10' src='X.svg' />
-                    </a> */}
-                            <a href="https://qiita.com/Kyon_" target="_blank" rel="noopener noreferrer">
-                                <img className="mx-2 w-10 h-10" src="qiita.jpeg" />
-                            </a>
-                        </div>
-                    </div>
+            <div className="font-san z-10 relative">
+                <div className="card w-80 mx-20 bg-white shadow-xl hover:shadow-lg p-8 rounded-lg">
+                    <div className="text-center mt-2 text-3xl font-medium">Qualification</div>
+                    <br></br>
+                    <ul className="text-center list-none">
+                        <li className="px-6 mt-2 font-light text-sm">
+                            <span className="pl-2">証券外務員第一種(2022)</span>
+                        </li>
+                        <li className="px-6 mt-2 font-light text-sm">
+                            <span className="pl-2">基本情報技術者(2022)</span>
+                        </li>
+                        <li className="px-6 mt-2 font-light text-sm">
+                            <span className="pl-2">GCP ACE(2023)</span>
+                        </li>
+                        <li className="px-6 mt-2 font-light text-sm">
+                            <span className="pl-2">etc...(自動車免許とか英検とか)</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </>

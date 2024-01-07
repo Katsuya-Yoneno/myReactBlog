@@ -4,7 +4,7 @@ const TimeLine = () => {
     return (
         <>
             <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.75rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 ">
-                <h2 className='text-white'>ざっくりと私のこれまでの人生を書いてみる</h2>
+                <h2 className="text-white text-center text-2xl whitespace-nowrap">ざっくりと私のこれまでの人生を書いてみる</h2>
                 <div className="relative">
                     <div className="md:flex items-center md:space-x-4 mb-3">
                         <div className="flex items-center space-x-4 md:space-x-2 md:space-x-reverse">
@@ -15,7 +15,7 @@ const TimeLine = () => {
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"
                                     height="16"
-                                    >
+                                >
                                     <path d="M8 0a8 8 0 1 0 8 8 8.009 8.009 0 0 0-8-8Zm0 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" />
                                 </svg>
                                 {/* date */}
@@ -81,7 +81,7 @@ const TimeLine = () => {
                         </div>
                         {/* title */}
                         <div className="text-slate-200 ml-14">
-                            <span className="text-green-200 font-bold font-medium text-xl">自称進学校での生活</span>
+                            <span className="text-green-200 font-bold font-medium text-xl whitespace-nowrap">自称進学校での生活</span>
                         </div>
                         {/* card */}
                     </div>
@@ -110,7 +110,7 @@ const TimeLine = () => {
                         </div>
                         {/* title */}
                         <div className="text-slate-200 ml-14">
-                            <span className="text-green-200 font-bold font-medium text-xl">東京・コロナ・人生</span>
+                            <span className="text-green-200 font-bold font-medium text-xl whitespace-nowrap">大学・東京・コロナ・人生</span>
                         </div>
                         {/* card */}
                     </div>
@@ -152,7 +152,6 @@ const TimeLine = () => {
                         その積み重ねで成り立っているのが社会。歯車万歳。これからも頑張るぞ。
                     </div>
                 </div>
-                
             </div>
         </>
     )
