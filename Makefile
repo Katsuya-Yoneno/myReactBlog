@@ -1,6 +1,9 @@
 .PHONY: commit push
 
-commit:
+build:
+	npm run rebuild
+
+commit: build
 	git add .
 	git commit -m '$(shell date '+%Y-%m-%d %H:%M:%S')'
 
